@@ -1,0 +1,105 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+}
+
+.layout{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.layout__card{
+    display: flex;
+    flex-direction: row;
+    max-width: 90rem;
+    height: 30rem;
+    background-color: azure;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.card__content{
+    flex-basis: 60%;
+    height: 100%;
+    padding: 4rem;
+}
+
+.card__title{
+    font-size: 2rem;
+    line-height: 2rem;
+    color: rgb(114, 168, 199);
+    margin-bottom: 1.5rem;
+}
+
+.card__description{
+    font-size: 1.4rem;
+    color: rgb(57, 97, 104);
+    margin-bottom: 2rem;
+}
+
+.card__user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user__container-img{
+width: 5rem;
+height: 5rem;
+}
+
+.user__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.user__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.user__container-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.user__name{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 700;
+}
+.user__date{
+    font-size: 1.3rem;
+    color: gray;
+    font-weight: 500;
+}
+
+.user__icon{
+    background-color: rgb(114, 168, 199);
+    color: white;
+    padding: 1rem;
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.user__icon:hover{
+    background-color: black;
+    transition: all 300ms ease-in;
+}
